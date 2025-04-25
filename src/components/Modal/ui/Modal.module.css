@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Space Mono';
+	src: url('/Space_Mono/SpaceMono-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.modal-wrapper-light {
+	border-radius: 15px;
+	padding: 20px;
+	color: #2b3442;
+	background-color: #fefefe;
+	box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.modal-wrapper-dark {
+	border-radius: 15px;
+	padding: 20px;
+	color: #e5e7eb;
+	background-color: #1e2a47;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.modal-heading-light {
+	color: #1e2a47;
+	font-size: 22px;
+	line-height: 1.3;
+	font-family: 'Space Mono';
+	font-weight: 700;
+}
+.modal-heading-dark {
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 1.3;
+	font-family: 'Space Mono';
+	font-weight: 700;
+}
+.modal-btn {
+	padding: 20px 35px;
+	border-radius: 15px;
+	background-color: #0079ff;
+	color: #ffffff;
+	font-size: 18px;
+	align-self: self-end;
+}

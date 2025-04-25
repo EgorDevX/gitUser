@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'Space Mono';
+	src: url('/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.search {
+	margin-bottom: 24px;
+}
+.search-container {
+	display: flex;
+	gap: 24px;
+	padding-left: 32px;
+}
+.search-img {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+.search-form-light {
+	padding: 12px;
+	background-color: #fefefe;
+	border: 1px solid #e5e7eb;
+	box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search-form-dark {
+	padding: 12px;
+	background-color: #1e2a47;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.input-search-light {
+	font-family: 'Space Mono';
+	color: #222731;
+	font-size: 18px;
+	font-weight: 400;
+	width: 254px;
+}
+.input-search-light::placeholder {
+	color: #858585c2;
+	font-size: 18px;
+	font-weight: 400 !important;
+}
+.input-search-light:-webkit-autofill {
+	-webkit-text-fill-color: #222731 !important;
+	transition: background-color 5000s ease-in-out 0s;
+}
+.input-search-dark {
+	font-family: 'Space Mono';
+	color: #ffffff;
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: 400;
+	width: 254px;
+}
+.input-search-dark::placeholder {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400 !important;
+}
+.input-search-dark:-webkit-autofill {
+	-webkit-text-fill-color: #ffffff !important;
+	transition: background-color 5000s ease-in-out 0s;
+}
+.search-btn {
+	background-color: #0079ff;
+	color: #ffffff;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: 'Space Mono';
+	width: 106px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 700;
+}
