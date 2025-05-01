@@ -42,7 +42,6 @@ export const Search = ({ theme, onUpdateUser }) => {
 				if (err.name === 'AbortError') {
 					return
 				}
-				console.error('Error fetching user:', err)
 			})
 
 		return () => controller.abort()
